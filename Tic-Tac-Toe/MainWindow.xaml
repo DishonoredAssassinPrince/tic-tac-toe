@@ -8,55 +8,55 @@
         Title="Tic-Tac-Toe" Height="800" Width="700" Background="#FF871F08">
     <Grid>
         <Image Source="Images/Board.png"/>
-        <Image x:Name="imgTopLeft" HorizontalAlignment="Left" Height="100" Margin="78,94,0,0" VerticalAlignment="Top" Width="100" 
+        <Image x:Name="imgTopLeft" HorizontalAlignment="Left" Height="100" Margin="64,94,0,0" VerticalAlignment="Top" Width="114" 
                MouseLeftButtonDown="imgTopLeft_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgMiddleLeft" HorizontalAlignment="Left" Height="100" Margin="78,310,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgMiddleLeft" HorizontalAlignment="Left" Height="100" Margin="64,310,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgMiddleLeft_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgMiddle" HorizontalAlignment="Left" Height="100" Margin="266,310,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgMiddle" HorizontalAlignment="Left" Height="100" Margin="266,310,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgMiddle_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgTop" HorizontalAlignment="Left" Height="100" Margin="266,94,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgTop" HorizontalAlignment="Left" Height="100" Margin="266,94,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgTop_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgTopRight" HorizontalAlignment="Left" Height="100" Margin="458,94,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgTopRight" HorizontalAlignment="Left" Height="100" Margin="458,94,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgTopRight_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgMiddleRight" HorizontalAlignment="Left" Height="100" Margin="458,310,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgMiddleRight" HorizontalAlignment="Left" Height="100" Margin="458,310,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgMiddleRight_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgBottomLeft" HorizontalAlignment="Left" Height="100" Margin="78,532,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgBottomLeft" HorizontalAlignment="Left" Height="100" Margin="64,532,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgBottomLeft_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgBottom" HorizontalAlignment="Left" Height="100" Margin="266,532,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgBottom" HorizontalAlignment="Left" Height="100" Margin="266,532,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgBottom_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="imgBottomRight" HorizontalAlignment="Left" Height="100" Margin="458,532,0,0" VerticalAlignment="Top" Width="100"
+        <Image x:Name="imgBottomRight" HorizontalAlignment="Left" Height="100" Margin="458,532,0,0" VerticalAlignment="Top" Width="114"
                MouseLeftButtonDown="imgBottomRight_MouseLeftButtonDown">
             <Image.Source>
                 <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
