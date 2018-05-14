@@ -12,8 +12,6 @@
         </Button>
         <ComboBox x:Name="DifficultyCBox" HorizontalAlignment="Center" Margin="50,149,50,0" VerticalAlignment="Top" Width="300">
             <ComboBoxItem Content="Easy" IsSelected="True"/>
-            <ComboBoxItem Content="Normal"/>
-            <ComboBoxItem Content="Impossible"/>
         </ComboBox>
         <Label x:Name="Title" Content="Tic-Tac-Toe" HorizontalAlignment="Center" Margin="114,40,78,0" VerticalAlignment="Top" 
                FontFamily="Segoe Script" FontSize="36" Width="300"/>
