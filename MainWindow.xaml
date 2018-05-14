@@ -1,0 +1,66 @@
+﻿<Window x:Class="Tic_Tac_Toe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tic_Tac_Toe"
+        mc:Ignorable="d"
+        Title="Tic-Tac-Toe" Height="800" Width="700" Background="#FF871F08">
+    <Grid>
+        <Image Source="Images/Board.png"/>
+        <Image x:Name="imgTopLeft" HorizontalAlignment="Left" Height="100" Margin="78,94,0,0" VerticalAlignment="Top" Width="100" 
+               MouseLeftButtonDown="imgTopLeft_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgMiddleLeft" HorizontalAlignment="Left" Height="100" Margin="78,310,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgMiddleLeft_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgMiddle" HorizontalAlignment="Left" Height="100" Margin="266,310,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgMiddle_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgTop" HorizontalAlignment="Left" Height="100" Margin="266,94,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgTop_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgTopRight" HorizontalAlignment="Left" Height="100" Margin="458,94,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgTopRight_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgMiddleRight" HorizontalAlignment="Left" Height="100" Margin="458,310,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgMiddleRight_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgBottomLeft" HorizontalAlignment="Left" Height="100" Margin="78,532,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgBottomLeft_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgBottom" HorizontalAlignment="Left" Height="100" Margin="266,532,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgBottom_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+        <Image x:Name="imgBottomRight" HorizontalAlignment="Left" Height="100" Margin="458,532,0,0" VerticalAlignment="Top" Width="100"
+               MouseLeftButtonDown="imgBottomRight_MouseLeftButtonDown">
+            <Image.Source>
+                <BitmapImage UriSource="file:///d:/Visual Studio 2017/Projects/Tic-Tac-Toe/Tic-Tac-Toe/Images/Empty.png"/>
+            </Image.Source>
+        </Image>
+    </Grid>
+</Window>
